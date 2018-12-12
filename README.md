@@ -13,7 +13,7 @@ agetty -a <username> --noclear %I $TERM
 - In `$HOME/.bashrc` add lines:
 ```
 if [ $(tty) == "/dev/tty1" ]; then
-    startx -- -layout Multihead:0
+    startx -- -layout Multihead :0
 fi
 ```
 - Deploy java JRE on Ubuntu and install app in `/usr/local`
