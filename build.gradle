@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.lpastucha'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+mainClassName="com.lpastucha.kiosk.run.KioskRunner"
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}

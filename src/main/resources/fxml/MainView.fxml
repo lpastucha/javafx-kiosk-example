@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1">
+    <rowConstraints>
+        <RowConstraints vgrow="ALWAYS" valignment="CENTER"/>
+    </rowConstraints>
+    <columnConstraints>
+        <ColumnConstraints hgrow="ALWAYS" halignment="CENTER"/>
+    </columnConstraints>
+    <ButtonBar GridPane.valignment="CENTER" GridPane.halignment="CENTER">
+        <buttons>
+            <Button fx:id="buttonAccept" mnemonicParsing="false" text="%btn-accept" onAction="#accept"/>
+            <Button fx:id="buttonClose" mnemonicParsing="false" text="%btn-close" onAction="#close"/>
+        </buttons>
+    </ButtonBar>
+</GridPane>
